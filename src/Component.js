@@ -19,9 +19,10 @@ const Component = () => {
     return (
       <div className='container'>
       <div className='cmp'>
+        <h1>Counter App</h1>
         <h1>{count}</h1>
         <button onClick={() => {setCount(count+1)}}>Increment +</button>
-        <button onClick={decrement}>Decrement -</button>
+        <button onClick={decrement}>Decrement -</button> <br/>
         {count > 10 && <button onClick={() => {setCount(0)}}>Go back to 0</button>}
       </div>
       </div>

@@ -27,9 +27,12 @@ h1 {
 .container {
   width: 400px;
   height: 400px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background-color: #a4a4a4;
   border-radius: 50px;
+}
+.cmp {
+  padding-top: 20px;
 }
